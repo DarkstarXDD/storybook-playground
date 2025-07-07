@@ -6,11 +6,12 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "type-check": "tsc --noEmit",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "chromatic"
+    "chromatic": "chromatic",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "test-storybook": "vitest run --project=storybook"
   },
   "dependencies": {
     "next": "15.3.4",
