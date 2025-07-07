@@ -9,7 +9,7 @@ export default function MyButton({
   return (
     <Button
       {...props}
-      className="cursor-pointer rounded-md bg-fuchsia-300 px-6 py-2 text-zinc-800 ring-zinc-100 ring-offset-2 ring-offset-zinc-800 outline-none hover:bg-zinc-100/90 focus-visible:ring-2"
+      className="font-inter cursor-pointer rounded-md bg-fuchsia-300 px-6 py-2 text-zinc-800 ring-zinc-100 ring-offset-2 ring-offset-zinc-800 outline-none hover:bg-zinc-100/90 focus-visible:ring-2"
     >
       {label}
     </Button>

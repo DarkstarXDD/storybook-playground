@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google"
+import { inter } from "@/lib/fonts"
 
 import type { Metadata } from "next"
 import "./globals.css"
@@ -29,11 +29,6 @@ export const metadata: Metadata = {
     },
   },
 }
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-})
 
 export default function RootLayout({
   children,
