@@ -1,3 +1,5 @@
+import { inter } from "../src/lib/fonts"
+
 import type { Preview } from "@storybook/nextjs-vite"
 
 import "../src/app/globals.css"
@@ -15,7 +17,7 @@ const preview: Preview = {
 
   decorators: [
     (Story) => (
-      <div className="font-inter">
+      <div className={`${inter.variable} font-inter`}>
         <Story />
       </div>
     ),
