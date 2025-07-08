@@ -17,7 +17,7 @@ const preview: Preview = {
 
   decorators: [
     (Story) => (
-      <div className={`${inter.variable}`}>
+      <div className={`${inter.variable} font-inter`}>
         <Story />
       </div>
     ),
