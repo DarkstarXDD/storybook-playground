@@ -1,4 +1,4 @@
-// import { inter } from "../src/lib/fonts"
+import { inter } from "../src/lib/fonts"
 
 import type { Preview } from "@storybook/nextjs-vite"
 
@@ -15,13 +15,13 @@ const preview: Preview = {
     a11y: { test: "error" },
   },
 
-  // decorators: [
-  //   (Story) => (
-  //     <div className={`${inter.variable} font-inter`}>
-  //       <Story />
-  //     </div>
-  //   ),
-  // ],
+  decorators: [
+    (Story) => (
+      <div className={`${inter.variable}`}>
+        <Story />
+      </div>
+    ),
+  ],
 }
 
 export default preview
